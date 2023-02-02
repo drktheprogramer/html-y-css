@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.header {
+    border-bottom: 10px solid;
+    border-color: antiquewhite;
+    padding-top: 12px;
+    padding-bottom: 0px;
+    padding-left: 0%;
+    padding-right: 0%;
+     
+}
+@media (max-width: 767.98px) {
+    #principal {
+        background-color: var(--bs-warning);
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+    }
+    #bg {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    #foto-perfil {
+        float: none;
+        border-radius: 50%;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+    #hidden {
+        display: none;
+        visibility: collapse;
+    }
+    #navbarSupportedContent {
+        border-bottom: 1px solid rgb(30, 30, 30);
+        
+    }
+}
+
+
+@media (min-width: 768px) {
+    #principal {
+        background-color: var(--bs-warning);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    #foto-perfil {
+        padding-right: 0%;
+        padding-left: 5%;
+        padding-top: 5%;
+        float: left;
+        border-radius: 50%;
+    
+    }
+    #hidden {
+        padding: 10px 0% 0% 0%;
+    }
+}
+
+#name {
+    color: rgb(172, 41, 41);
+    clear: left;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 0%;
+}
+
+p , li{
+    padding: 0px 0px 50px 0px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: large;
+}
+
+
+h1 {
+    padding-top: 5px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    font-size: 80px;
+    
+}
+
+#renglon {
+    width: 0%;
+}
+
+#epiteto {
+    padding: 0%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    background-color: beige;
+}
+
+.alternate {
+    box-sizing: border-box;
+}
+
+
+
+svg {
+    vertical-align: 0%;
+}
+
+.title-h2 {
+    writing-mode: vertical-lr;
+    float: left;
+    width: 100%;
+}
+
+
+#epiteto {
+    clear: left;
+}
+
+#description {
+    padding-bottom: 20px;
+}
+
+#section-content {
+    background-color: rgb(30, 30, 30);
+    color: antiquewhite;
+    border-bottom: 25px solid  rgb(90, 90, 90);
+    padding: 20px 0px 20px 0px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+}
+
+#icono {
+    transform: rotate(90deg);
+    vertical-align: 0%;
+}
+
+
+section {
+    border-bottom: 10px solid antiquewhite;
+    box-sizing: border-box;
+}
+
+#lists {
+    padding: 5% 0% 20% 0%;
+}
+
+.nav-item {
+    padding-bottom: 0%;
+}
+
+#b-navegacion {
+    background-color: var(--bs-warning);
+    border-color: var(--bs-warning);
+    padding: 8px 12px 8px 12px;
+}
+
+#nav {
+    padding: 0%;
+    border: 0px;
+}
+
+#item:hover {
+   background-color: rgb(30, 30, 30); 
+   color: antiquewhite;
+   border-bottom: 1px groove rgb(30, 30, 30);
+}
+
+#my-button{
+    position: fixed;
+    padding-top: 5px;
+    bottom: 20px;
+    right: 15px;
+    border-radius: 45%;
+
+}
